@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1417427D27BC79350056087E /* MatrixRainEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417427C27BC79350056087E /* MatrixRainEffectApp.swift */; };
+		1417427F27BC79350056087E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417427E27BC79350056087E /* ContentView.swift */; };
+		1417428127BC79390056087E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1417428027BC79390056087E /* Assets.xcassets */; };
+		1417428427BC79390056087E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1417428327BC79390056087E /* Preview Assets.xcassets */; };
+		1417428E27BC793A0056087E /* MatrixRainEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417428D27BC793A0056087E /* MatrixRainEffectTests.swift */; };
+		1417429827BC793A0056087E /* MatrixRainEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417429727BC793A0056087E /* MatrixRainEffectUITests.swift */; };
+		1417429A27BC793A0056087E /* MatrixRainEffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417429927BC793A0056087E /* MatrixRainEffectUITestsLaunchTests.swift */; };
+		141742A727BC7A470056087E /* matrix code nfi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 141742A627BC7A470056087E /* matrix code nfi.ttf */; };
+		141742AB27BC7B590056087E /* MatrixRainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141742AA27BC7B590056087E /* MatrixRainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1417428A27BC793A0056087E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1417427127BC79350056087E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1417427827BC79350056087E;
+			remoteInfo = MatrixRainEffect;
+		};
+		1417429427BC793A0056087E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1417427127BC79350056087E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1417427827BC79350056087E;
+			remoteInfo = MatrixRainEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1417427927BC79350056087E /* MatrixRainEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixRainEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1417427C27BC79350056087E /* MatrixRainEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRainEffectApp.swift; sourceTree = "<group>"; };
+		1417427E27BC79350056087E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1417428027BC79390056087E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1417428327BC79390056087E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1417428927BC793A0056087E /* MatrixRainEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixRainEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1417428D27BC793A0056087E /* MatrixRainEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRainEffectTests.swift; sourceTree = "<group>"; };
+		1417429327BC793A0056087E /* MatrixRainEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixRainEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1417429727BC793A0056087E /* MatrixRainEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRainEffectUITests.swift; sourceTree = "<group>"; };
+		1417429927BC793A0056087E /* MatrixRainEffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRainEffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		141742A627BC7A470056087E /* matrix code nfi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "matrix code nfi.ttf"; path = "matrix_code_nfi/matrix code nfi.ttf"; sourceTree = "<group>"; };
+		141742A827BC7A7E0056087E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		141742AA27BC7B590056087E /* MatrixRainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1417427627BC79350056087E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1417428627BC793A0056087E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1417429027BC793A0056087E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1417427027BC79350056087E = {
+			isa = PBXGroup;
+			children = (
+				141742A627BC7A470056087E /* matrix code nfi.ttf */,
+				1417427B27BC79350056087E /* MatrixRainEffect */,
+				1417428C27BC793A0056087E /* MatrixRainEffectTests */,
+				1417429627BC793A0056087E /* MatrixRainEffectUITests */,
+				1417427A27BC79350056087E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1417427A27BC79350056087E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1417427927BC79350056087E /* MatrixRainEffect.app */,
+				1417428927BC793A0056087E /* MatrixRainEffectTests.xctest */,
+				1417429327BC793A0056087E /* MatrixRainEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1417427B27BC79350056087E /* MatrixRainEffect */ = {
+			isa = PBXGroup;
+			children = (
+				141742A927BC7AE20056087E /* View */,
+				141742A827BC7A7E0056087E /* Info.plist */,
+				1417427C27BC79350056087E /* MatrixRainEffectApp.swift */,
+				1417427E27BC79350056087E /* ContentView.swift */,
+				1417428027BC79390056087E /* Assets.xcassets */,
+				1417428227BC79390056087E /* Preview Content */,
+			);
+			path = MatrixRainEffect;
+			sourceTree = "<group>";
+		};
+		1417428227BC79390056087E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1417428327BC79390056087E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1417428C27BC793A0056087E /* MatrixRainEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1417428D27BC793A0056087E /* MatrixRainEffectTests.swift */,
+			);
+			path = MatrixRainEffectTests;
+			sourceTree = "<group>";
+		};
+		1417429627BC793A0056087E /* MatrixRainEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1417429727BC793A0056087E /* MatrixRainEffectUITests.swift */,
+				1417429927BC793A0056087E /* MatrixRainEffectUITestsLaunchTests.swift */,
+			);
+			path = MatrixRainEffectUITests;
+			sourceTree = "<group>";
+		};
+		141742A927BC7AE20056087E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				141742AA27BC7B590056087E /* MatrixRainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1417427827BC79350056087E /* MatrixRainEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1417429D27BC793A0056087E /* Build configuration list for PBXNativeTarget "MatrixRainEffect" */;
+			buildPhases = (
+				1417427527BC79350056087E /* Sources */,
+				1417427627BC79350056087E /* Frameworks */,
+				1417427727BC79350056087E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixRainEffect;
+			productName = MatrixRainEffect;
+			productReference = 1417427927BC79350056087E /* MatrixRainEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1417428827BC793A0056087E /* MatrixRainEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141742A027BC793A0056087E /* Build configuration list for PBXNativeTarget "MatrixRainEffectTests" */;
+			buildPhases = (
+				1417428527BC793A0056087E /* Sources */,
+				1417428627BC793A0056087E /* Frameworks */,
+				1417428727BC793A0056087E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1417428B27BC793A0056087E /* PBXTargetDependency */,
+			);
+			name = MatrixRainEffectTests;
+			productName = MatrixRainEffectTests;
+			productReference = 1417428927BC793A0056087E /* MatrixRainEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1417429227BC793A0056087E /* MatrixRainEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141742A327BC793A0056087E /* Build configuration list for PBXNativeTarget "MatrixRainEffectUITests" */;
+			buildPhases = (
+				1417428F27BC793A0056087E /* Sources */,
+				1417429027BC793A0056087E /* Frameworks */,
+				1417429127BC793A0056087E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1417429527BC793A0056087E /* PBXTargetDependency */,
+			);
+			name = MatrixRainEffectUITests;
+			productName = MatrixRainEffectUITests;
+			productReference = 1417429327BC793A0056087E /* MatrixRainEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1417427127BC79350056087E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1417427827BC79350056087E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1417428827BC793A0056087E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1417427827BC79350056087E;
+					};
+					1417429227BC793A0056087E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1417427827BC79350056087E;
+					};
+				};
+			};
+			buildConfigurationList = 1417427427BC79350056087E /* Build configuration list for PBXProject "MatrixRainEffect" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1417427027BC79350056087E;
+			productRefGroup = 1417427A27BC79350056087E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1417427827BC79350056087E /* MatrixRainEffect */,
+				1417428827BC793A0056087E /* MatrixRainEffectTests */,
+				1417429227BC793A0056087E /* MatrixRainEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1417427727BC79350056087E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141742A727BC7A470056087E /* matrix code nfi.ttf in Resources */,
+				1417428427BC79390056087E /* Preview Assets.xcassets in Resources */,
+				1417428127BC79390056087E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1417428727BC793A0056087E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1417429127BC793A0056087E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1417427527BC79350056087E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417427F27BC79350056087E /* ContentView.swift in Sources */,
+				1417427D27BC79350056087E /* MatrixRainEffectApp.swift in Sources */,
+				141742AB27BC7B590056087E /* MatrixRainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1417428527BC793A0056087E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417428E27BC793A0056087E /* MatrixRainEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1417428F27BC793A0056087E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417429A27BC793A0056087E /* MatrixRainEffectUITestsLaunchTests.swift in Sources */,
+				1417429827BC793A0056087E /* MatrixRainEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1417428B27BC793A0056087E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1417427827BC79350056087E /* MatrixRainEffect */;
+			targetProxy = 1417428A27BC793A0056087E /* PBXContainerItemProxy */;
+		};
+		1417429527BC793A0056087E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1417427827BC79350056087E /* MatrixRainEffect */;
+			targetProxy = 1417429427BC793A0056087E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1417429B27BC793A0056087E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1417429C27BC793A0056087E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1417429E27BC793A0056087E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatrixRainEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = DN3J68WKT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MatrixRainEffect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2ac32.github.MatrixRainEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1417429F27BC793A0056087E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatrixRainEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = DN3J68WKT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MatrixRainEffect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2ac32.github.MatrixRainEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		141742A127BC793A0056087E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN3J68WKT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2ac32.github.MatrixRainEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixRainEffect.app/MatrixRainEffect";
+			};
+			name = Debug;
+		};
+		141742A227BC793A0056087E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN3J68WKT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2ac32.github.MatrixRainEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixRainEffect.app/MatrixRainEffect";
+			};
+			name = Release;
+		};
+		141742A427BC793A0056087E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN3J68WKT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2ac32.github.MatrixRainEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatrixRainEffect;
+			};
+			name = Debug;
+		};
+		141742A527BC793A0056087E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN3J68WKT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2ac32.github.MatrixRainEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatrixRainEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1417427427BC79350056087E /* Build configuration list for PBXProject "MatrixRainEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1417429B27BC793A0056087E /* Debug */,
+				1417429C27BC793A0056087E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1417429D27BC793A0056087E /* Build configuration list for PBXNativeTarget "MatrixRainEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1417429E27BC793A0056087E /* Debug */,
+				1417429F27BC793A0056087E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141742A027BC793A0056087E /* Build configuration list for PBXNativeTarget "MatrixRainEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141742A127BC793A0056087E /* Debug */,
+				141742A227BC793A0056087E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141742A327BC793A0056087E /* Build configuration list for PBXNativeTarget "MatrixRainEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141742A427BC793A0056087E /* Debug */,
+				141742A527BC793A0056087E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1417427127BC79350056087E /* Project object */;
+}
