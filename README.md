@@ -11,8 +11,8 @@ Practice SwiftUI
 ![Tracer's GitHub stats](https://github-readme-stats.vercel.app/api?username=t2ac32&hide=contribs,prs&theme=nord&show_icons=true)
 
 <br><br>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=t2ac32&layout=compact&theme=nord)](https://githu
-![10](rainbow_gradient_1500x50.png)    
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=t2ac32&layout=compact&theme=nord)
 
 <br><br>
 
