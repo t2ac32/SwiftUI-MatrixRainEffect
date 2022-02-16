@@ -1,7 +1,9 @@
 ![10](rainbow_gradient_1500x50.png)
 <br>
 # Matrix Rain Effect
-![10](rainbow_gradient_1500x50.png)
+A matrix terminal effect implemented on Swift.
+### objective 
+Practice SwiftUI
 
 ![](preview.gif)
 <br><br>
